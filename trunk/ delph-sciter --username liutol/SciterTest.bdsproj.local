@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010/04/20 12:03:23.073.bdsproj,C:\My Documents\Borland Studio Projects\Project2.bdsproj=C:\My Documents\Borland Studio Projects\SciterTest.bdsproj</Transaction>
+    <Transaction>2010/04/20 12:03:55.914.pas,C:\My Documents\Borland Studio Projects\Unit3.pas=C:\Documents and Settings\nliu\Desktop\Misc\scitercomp\GUI.pas</Transaction>
+    <Transaction>2010/04/20 12:03:55.914.dfm,C:\My Documents\Borland Studio Projects\Unit3.dfm=C:\Documents and Settings\nliu\Desktop\Misc\scitercomp\GUI.dfm</Transaction>
+    <Transaction>2010/04/20 12:04:01.086.bdsproj,C:\My Documents\Borland Studio Projects\SciterTest.bdsproj=C:\Documents and Settings\nliu\Desktop\Misc\scitercomp\SciterTest.bdsproj</Transaction>
+    <Transaction>2010/04/20 12:17:58.667.pas,C:\Documents and Settings\nliu\Desktop\Misc\scitercomp\Unit1.pas=C:\Documents and Settings\nliu\Desktop\Misc\scitercomp\SciterDll.pas</Transaction>
+  </Transactions>
+</BorlandProject>

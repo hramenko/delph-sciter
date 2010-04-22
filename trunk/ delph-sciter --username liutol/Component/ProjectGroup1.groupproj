@@ -1,0 +1,40 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{d64e4c8a-c260-48c7-8b8e-4823338c0a6e}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="SciterEx">
+    <MSBuild Projects="SciterEx.dproj" Targets="" />
+  </Target>
+  <Target Name="SciterEx:Clean">
+    <MSBuild Projects="SciterEx.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="SciterEx:Make">
+    <MSBuild Projects="SciterEx.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Project3">
+    <MSBuild Projects="C:\Users\shake\Documents\RAD Studio\Projects\Project3.dproj" Targets="" />
+  </Target>
+  <Target Name="Project3:Clean">
+    <MSBuild Projects="C:\Users\shake\Documents\RAD Studio\Projects\Project3.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Project3:Make">
+    <MSBuild Projects="C:\Users\shake\Documents\RAD Studio\Projects\Project3.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="SciterEx;Project3" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="SciterEx:Clean;Project3:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="SciterEx:Make;Project3:Make" />
+  </Target>
+</Project>
